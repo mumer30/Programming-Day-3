@@ -6,6 +6,6 @@ cout <<"Number of Minutes:  ";
 cin >> min;
 cout <<"Number of Seconds:  ";
 cin >> sec;
-cout <<"Total Number of Frames : "<< (10*60*25);
+cout <<"Total Number of Frames : "<< (60*min*sec);
 
 }
